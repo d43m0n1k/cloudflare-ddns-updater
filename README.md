@@ -25,7 +25,6 @@ A lightweight Bash script to automatically update one or more existing Cloudflar
 - `curl`
 - `jq`
 - Cloudflare account with API access
-- 
 - Existing A records already created in Cloudflare
 
 ---
