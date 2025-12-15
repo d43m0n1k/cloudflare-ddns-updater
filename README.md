@@ -25,6 +25,7 @@ A lightweight Bash script to automatically update one or more existing Cloudflar
 - `curl`
 - `jq`
 - Cloudflare account with API access
+- 
 - Existing A records already created in Cloudflare
 
 ---
@@ -45,11 +46,14 @@ Docs: https://developers.cloudflare.com/api/
 Use an API Token, not the global API key
 
 Required permissions:
+
 Zone → DNS → Edit
+
 Zone → Read
 
 ### ntfy
 Project: https://github.com/binwiederhier/ntfy
+
 Optional but recommended for notifications
 
 ---
@@ -89,5 +93,7 @@ journalctl -t cf-ddns
 
 #### Notes
 This script does not create DNS records
+
 IPv4 only (by design)
+
 Suitable for Cloudflare-proxied or non-proxied records
