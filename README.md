@@ -33,7 +33,7 @@ A lightweight Bash script to automatically update one or more existing Cloudflar
 
 ### Create environment file
 
-Create and populate the env file:
+Create and populate the env file using the template provided:
 ```
 sudo nano /etc/cloudflare-ddns.env
 ```
@@ -57,7 +57,7 @@ Optional but recommended for notifications
 
 ---
 
-## Copy the script to:
+## Copy the main script to:
 ```
 /usr/local/bin/cf-ddns-updater-main.sh
 ```
