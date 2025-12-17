@@ -33,9 +33,9 @@ A lightweight Bash script to automatically update one or more existing Cloudflar
 
 ### Create environment file
 
-Create and populate the env file using the template provided:
+Create and populate the env file using the template provided here:
 ```
-sudo nano /etc/cloudflare-ddns.env
+/etc/cloudflare-ddns.env
 ```
 
 ### Cloudflare API Token
